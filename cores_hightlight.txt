@@ -1,0 +1,57 @@
+1 - Preto (Black)
+2 - Azul (Blue)
+3 - Turquesa (Turquoise)
+4 - Verde (Green)
+5 - Magenta (Pink)
+6 - Vermelho (Red)
+7 - Amarelo (Yellow)
+8 - Branco (White)
+9 - Azul Escuro (Dark Blue)
+10 - Azul Celeste (Teal)
+11 - Verde Mar (Green Sea)
+12 - Magenta Claro (Bright Pink)
+13 - Vermelho Claro (Light Red)
+14 - Cinza Escuro (Dark Yellow)
+15 - Cinza Claro (Gray)
+16 - Cinza Claro 25% (Light Gray)
+
+
+        try:
+            if os.path.exists(filename):
+
+                # Abre o documento .doc
+                self.open_word(filename=filename)
+
+                # Verifica se o documento possui tabelas
+                if self.doc.Tables.Count > 0:
+                    for table_index in range(1, self.doc.Tables.Count + 1):
+                        table = self.doc.Tables(table_index)
+                        print(f"Tabela {table_index}:")
+
+                        # Verifica se a tabela tem pelo menos uma linha e uma coluna
+                        if table.Rows.Count > 0 and table.Columns.Count > 0:
+                            # Percorre as linhas da tabela
+                            for row in range(1, table.Rows.Count + 1):
+                                row_data = []
+                                for col in range(1, table.Columns.Count + 1):
+                                    try:
+                                        # Acessa a célula e remove caracteres extras
+                                        cell_text = table.Cell(Row=row, Column=col).Range.Text
+                                        cell_text = cell_text.replace('\r\x07', '').strip()
+                                        row_data.append(cell_text)
+                                    except Exception as e:
+                                        print(f"Erro ao acessar célula ({row}, {col}): {e}")
+                                print('\t'.join(row_data))
+                        else:
+                            print(f"A Tabela {table_index} está vazia ou malformada.")
+                else:
+                    print("Nenhuma tabela encontrada no documento.")
+
+            else:
+                print("Arquivo não encontrado")
+
+        except Exception as e:
+            print(e)
+
+        finally:
+            self.close_word()

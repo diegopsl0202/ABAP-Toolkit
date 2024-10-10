@@ -1,0 +1,45 @@
+{
+    "name_reviewer": "Paula Saito",
+    "title_reviewer": "ABAP Onshore",
+    "name_approvers": "Wesley Santos",
+    "title_approvers": "ABAP Onshore",
+    "author": "Diego Augusto",
+    "checkBox_td": false,
+    "checkBox_ctp": true,
+    "reviewers": {
+        "name1": "diego.augusto",
+        "name2": "wesley.araujo.santos",
+        "name3": "wesley.ueta",
+        "name4": "paula.saito",
+        "name5": "maria.e.sakovitz"
+    },
+    "pms": {
+        "name1": "ricardo.feitosa",
+        "name2": "matheus.tresso"
+    },
+    "checkBox_sweep": false,
+    "sweep_default_values": {
+        "sweep_cd_number": "3200023020",
+        "sweep_demand_id": "",
+        "sweep_cr_number": "2200038302",
+        "sweep_reviewer": "wesley.araujo.santos",
+        "sweep_pm": "matheus.tresso",
+        "sweep_release": "NOV",
+        "sweep_year": "2024"
+    },
+    "email_default_values": {
+        "email_module": "OTC",
+        "email_cd": "3200023020",
+        "email_ricef": "14225",
+        "email_requests": "P1DK9A50YO",
+        "email_pwo": "170000",
+        "email_subject": "Enhancement in J1B1N (ZJ1B1N)"
+    },
+    "emails": {
+        "OTC": "GSS.OPS.SD.ABAP@accenture.com",
+        "WT": "Unilever.CoreERP.SC.AM.ABAP@accenture.com",
+        "FI": "GSS.OPS.FICO.ABAP@accenture.com",
+        "VM": "Mehmet.Kocabas@unilever.com;Baki.Ozeke@unilever.com"
+    },
+    "checkBox_email": false
+}

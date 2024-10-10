@@ -1,0 +1,82 @@
+                <item>
+                 <property name="text">
+                  <string>1 - Preto (Black)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>2 - Azul (Blue)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>3 - Turquesa (Turquoise)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>4 - Verde (Green)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>5 - Magenta (Pink)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>6 - Vermelho (Red)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>7 - Amarelo (Yellow)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>8 - Branco (White)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>9 - Azul Escuro (Dark Blue)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>10 - Azul Celeste (Teal)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>11 - Verde Mar (Green Sea)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>12 - Magenta Claro (Bright Pink)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>13 - Vermelho Claro (Light Red)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>14 - Cinza Escuro (Dark Yellow)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>15 - Cinza Claro (Gray)</string>
+                 </property>
+                </item>
+<item>
+                 <property name="text">
+                  <string>16 - Cinza Claro 25% (Light Gray)</string>
+                 </property>
+                </item>
+
+
